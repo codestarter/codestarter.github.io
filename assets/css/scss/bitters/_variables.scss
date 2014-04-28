@@ -1,0 +1,46 @@
+
+// sizes
+$base-font-size: 1em;
+$base-line-height: $base-font-size * 1.5;
+$base-border-radius: em(3);
+
+// colors
+$black: #000000;
+$dark-gray: #333333;
+$pink: #FF358B;
+$blue: #01B0F0;
+$green: #AEEE00;
+
+// rgba($color, $alpha)
+$alpha: (0.8);
+$black-rgba: rgba($black, $alpha);
+$dark-gray-rgba: rgba($dark-gray, $alpha);
+$pink-rgba: rgba($pink, $alpha);
+$blue-rgba: rgba($blue, $alpha);
+$green-rgba: rgba($green, $alpha);
+
+$blue: #477DCA;
+$medium-gray: #999;
+$light-gray: #DDD;
+$light-red: #FBE3E4;
+$light-yellow: #FFF6BF;
+$light-green: #E6EFC2;
+
+// body color
+$base-body-color: white;
+
+// font colors
+$base-font-color: $dark-gray;
+$base-accent-color: $blue;
+
+// text link colors
+$base-link-color: $base-accent-color;
+$hover-link-color: darken($base-accent-color, 15);
+
+// border color
+$base-border-color: $light-gray;
+
+// flash Colors
+$error-color: $light-red;
+$notice-color: $light-yellow;
+$success-color: $light-green;
