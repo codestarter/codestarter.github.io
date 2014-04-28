@@ -2,7 +2,12 @@
 <html lang="en">
   <head>
     <!-- Title block allowing child pages to override -->
-    <title>{% block title %}Empty{% endblock %}</title>
+    <title>{% block title %}codestarter.io{% endblock %}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible&quot;">        
+    <meta content="on" http-equiv="cleartype">
+    <meta name="author" content="{% block author %}Matt Wisbey{% endblock %}">
+    <meta name="description" content="{% block description %}A photography showcase for Jamie Andersen{% endblock %}">
     <link rel="shortcut icon" type="image/ico" href="/favicon.ico" />
     <!-- Styles -->
     {{ "style.css" | asset_url | stylesheet_tag }}
