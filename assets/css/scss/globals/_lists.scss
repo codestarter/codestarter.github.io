@@ -1,10 +1,11 @@
 ul, ol {
   margin: 0;
   padding: 0;
+  margin: 0 0 golden-ratio(1rem, 1);
+
   list-style-type: none;
-  margin-bottom: $base-line-height / 2;
   &.default {
-    padding-left: $base-line-height;
+    padding-left: golden-ratio(1rem, 1);
   }
 }
 
@@ -21,12 +22,12 @@ ol {
 }
 
 dl {
-  line-height: $base-line-height;
-  margin-bottom: $base-line-height / 2;
+  line-height: 1.4;
+  margin: 0 0 golden-ratio(1rem, 1);
 
   dt {
     font-weight: bold;
-    margin-top: $base-line-height / 2;
+    margin: 0 0 golden-ratio(1rem, 0);
   }
 
   dd {

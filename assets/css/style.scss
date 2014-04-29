@@ -7,14 +7,12 @@
 				"scss/globals/mixins",
 				"scss/globals/fonts",
 				"scss/globals/typography",
-				"scss/globals/images";
+				"scss/globals/images",
+				"scss/globals/lists",
+				"scss/globals/tables";
 
 
-// @import "scss/vertical-rhythm/config",
-// 				"scss/vertical-rhythm/functions",
-// 				"scss/vertical-rhythm/typomatic",
-// 				"scss/vertical-rhythm/typography";
-
+				
 
 .container {
 	@include outer-container;
