@@ -1,0 +1,18 @@
+h1 {
+  @include type-scale(xxlarge);
+}
+h2 {
+  @include type-scale(xlarge);
+}
+h3 {
+  @include type-scale(large);
+}
+h4 {
+  @include type-scale(medium);
+}
+p {
+  @include type-scale(base);
+}
+small {
+  @include type-scale(small);
+}

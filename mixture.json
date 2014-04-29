@@ -1,6 +1,10 @@
 {
   "debug": false,
   "domain": null,
+  "gitHubPages": {
+    "guid": "8CB1D9EA-3E98-4175-9B06-7794DA64BCEC",
+    "repoUrl": "https://github.com/codestarter/codestarter.github.io.git"
+  },
   "lintScripts": false,
   "modelSource": null,
   "preprocessorLocations": "assets",
