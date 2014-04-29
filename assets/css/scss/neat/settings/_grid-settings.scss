@@ -1,8 +1,7 @@
 @import "../neat-helpers";
 
-// Define your breakpoints
-// $tablet: new-breakpoint(max-width 768px 8);
-// $mobile: new-breakpoint(max-width 480px 4);
+$medium-screen: em(480);
+$large-screen: em(768);
 
-$tablet: new-breakpoint(min-width 480px 8);
-$desktop: new-breakpoint(min-width 768px 12);
+$tablet: new-breakpoint(min-width $medium-screen 8);
+$desktop: new-breakpoint(min-width $large-screen 12);

@@ -1,13 +1,19 @@
 // panels
 .panel {
 	&.dark-gray {
-		background-color: $dark-gray;
+		// background-color: $dark-gray;
 		color: white;
 	}
 }
 
 .container {
 	@include outer-container;
+	@include media($tablet) {
+		@include outer-container;
+	}
+	@include media($desktop) {
+		@include outer-container;
+	}
 }
 
 // @include media($tablet) { 
